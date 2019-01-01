@@ -32,14 +32,17 @@ function currentLine(line) {
   var y = line.length
   var newString = []
   
-  if (y > 0) {
+  if (y === 0) {
+    console.log("The line is currently empty.")
+  }
+  
+  else {
     while (y > x) {
       newString.push(` ${[x + 1]}. ${[line[x]]}`)
       x++
     }
     return (`The line is currently: ${[newString]}`)
     }
-  else console.log("The line is currently empty.")
 }
 
   
