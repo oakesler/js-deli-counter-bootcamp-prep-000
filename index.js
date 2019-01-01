@@ -32,12 +32,12 @@ function currentLine(line) {
   var y = line.length
   var newString = []
   
-  if (y > x) {
+  if (y > 0) {
+    while (y > x) {
     newString.push(` ${[x + 1]}. ${[line[x]]}`)
     x++;
     }
-
-return (`The line is currently: ${[newString]}`);
+  return (`The line is currently: ${[newString]}`);
 }
 
   
