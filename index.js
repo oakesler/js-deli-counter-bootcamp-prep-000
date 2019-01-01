@@ -38,6 +38,8 @@ function currentLine(line) {
     x++;
     }
   return (`The line is currently: ${[newString]}`);
+  }
+  else console.log("The line is currently empty.")
 }
 
   
