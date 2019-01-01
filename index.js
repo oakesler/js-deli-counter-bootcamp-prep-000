@@ -33,7 +33,7 @@ function currentLine(line) {
   var newString = []
   
   if (y === 0) {
-    console.log("The line is currently empty.")
+    return ("The line is currently empty.")
   }
   
   else {
