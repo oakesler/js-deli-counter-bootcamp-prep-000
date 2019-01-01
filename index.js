@@ -41,7 +41,7 @@ function currentLine(line) {
       newString.push(` ${[x + 1]}. ${[line[x]]}`)
       x++
     }
-    return (`The line is currently: ${[newString]}`)
+    return (`The line is currently:${[newString]}`)
     }
 }
 
