@@ -32,7 +32,7 @@ function currentLine(line) {
   var y = line.length
   var newString = []
   
-  while (y > x) {
+  if (y > x) {
     newString.push(` ${[x + 1]}. ${[line[x]]}`)
     x++;
     }
