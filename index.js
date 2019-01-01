@@ -34,10 +34,10 @@ function currentLine(line) {
   
   if (y > 0) {
     while (y > x) {
-    newString.push(` ${[x + 1]}. ${[line[x]]}`)
+      newString.push(` ${[x + 1]}. ${[line[x]]}`)
     x++;
     }
-  return (`The line is currently: ${[newString]}`);
+    return (`The line is currently: ${[newString]}`);
   }
   else console.log("The line is currently empty.")
 }
